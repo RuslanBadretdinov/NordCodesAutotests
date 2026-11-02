@@ -82,13 +82,15 @@
         <profile>
             <id>localhost</id>
             <properties>
-                <base.api.url>https://petstore.swagger.io/v2</base.api.url>
+                <base.api.url>http://localhost:8080</base.api.url>
+                <external.api.url>http://localhost:8888</external.api.url>
             </properties>
         </profile>
         <profile>
             <id>dev</id>
             <properties>
-                <base.api.url>https://petstore.swagger.io/v2</base.api.url>
+                <base.api.url>http://myserver.ru</base.api.url>
+                <external.api.url>http://externalserver.ru</external.api.url>
             </properties>
         </profile>
     </profiles>
