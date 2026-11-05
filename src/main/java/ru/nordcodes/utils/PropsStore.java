@@ -1,4 +1,4 @@
-package ru.nordcodes.utils.props;
+package ru.nordcodes.utils;
 
 import lombok.Getter;
 import lombok.SneakyThrows;
